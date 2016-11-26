@@ -25,5 +25,6 @@ pkg.uninstall() {
           && rm -rf ~/.heroku ~/.local/share/heroku \
                     ~/.config/heroku ~/.cache/heroku
       fi
+      ;;
 }
 
