@@ -26,5 +26,6 @@ pkg.uninstall() {
                     ~/.config/heroku ~/.cache/heroku
       fi
       ;;
+  esac
 }
 
