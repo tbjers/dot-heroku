@@ -5,10 +5,8 @@ pkg.install() {
     linux)
       if utils.cmd_exists apt-get; then
         utils.run_installer https://toolbelt.heroku.com/install-ubuntu.sh
-        heroku --version
       else
         utils.run_installer https://toolbelt.heroku.com/install.sh
-        heroku --version
       fi
       ;;
   esac
